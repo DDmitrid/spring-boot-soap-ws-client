@@ -66,6 +66,10 @@
 							<url>http://www.buzzbuzzhome.com/GeoLocation/GeoLocation.asmx?WSDL</url>
 						</schema>
 					</schemas>
+
+					<!-- generate the code from offline WSDL file config -->
+					<!--<schemaDirectory>src/main/resources/wsdl</schemaDirectory>-->
+					<!--<schemaIncludes>*.wsdl</schemaIncludes>-->
 				</configuration>
 			</plugin>
 		</plugins>
